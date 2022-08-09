@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <h4>Task List</h4>
+        <!-- form new task -->
+        <form id="form">
+            <input type="text" id="new-task" placeholder="New Task">
+            <input type="submit" value="add task">
+        </form>
+        <hr>
+        <h4>Tasks</h4>
+        <!-- filter task input-->
+        <input type="text" id="task-filter" placeholder="Filter Task">
+        <!-- task list show -->
+        <ul id="tasks-list"></ul>
+        <!-- clear task button -->
+        <button id="clear-task">clear task</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
